@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  Hearthstone
+
+  Created by Rafael Almeida on 04/08/23.
+  
+*/
+
+"Name" = "Name";
+"Flavor" = "Flavor";
+"Description" = "Description";
+"Set" = "Set";
+"Type" = "Type";
+"Faction" = "Faction";
+"Rarity" = "Rarity";
+"Attack" = "Attack";
+"Cost" = "Cost";
+"Health" = "Health";
+"Cancel" = "Cancel";

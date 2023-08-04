@@ -1,0 +1,24 @@
+{
+    "cardId": "BG_CS2_065",
+    "dbfId": 96796,
+    "name": "Voidwalker",
+    "cardSet": "Basic",
+    "type": "Minion",
+    "faction": "Neutral",
+    "rarity": "Free",
+    "cost": 1,
+    "attack": 1,
+    "health": 3,
+    "text": "<b>Taunt</b>",
+    "flavor": "No relation to \"The Voidsteppers\", the popular Void-based dance troupe.",
+    "artist": "Alex Horley Orlandelli",
+    "race": "Demon",
+    "playerClass": "Warlock",
+    "img": "https://d15f34w2p8l1cc.cloudfront.net/hearthstone/1a4e568f67c787888cc9badb1f4b22ab99bc253b608335c29c3a0129308352b1.png",
+    "locale": "enUS",
+    "mechanics": [
+        {
+            "name": "Taunt"
+        }
+    ]
+}
