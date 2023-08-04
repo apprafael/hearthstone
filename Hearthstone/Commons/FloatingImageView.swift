@@ -14,19 +14,9 @@ struct FloatingImageView: View {
     var body: some View {
         Group {
             if let url = url {
-                AsyncImage(url: url) { image in
-                    image
-                        .shadow(color: .blue, radius: 10)
-                        .offset(y: isFloatingUp ? -10 : 10)
-                } placeholder: {
-                    Rectangle()
-                        .frame(width: 350, height: 600)
-                        .foregroundColor(Color.gray.opacity(0.1))
-                }
-            } else {
-                Rectangle()
-                    .frame(width: 350, height: 600)
-                    .foregroundColor(Color.gray.opacity(0.1))
+                AsyncImage(url: url)
+                    .shadow(color: .blue, radius: 10)
+                    .offset(y: isFloatingUp ? -10 : 10)
             }
         }
         .onAppear {
