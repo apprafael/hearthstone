@@ -15,6 +15,7 @@ struct CardDetailView: View {
     var body: some View {
         List {
             setupContent()
+                .padding()
         }
         .listStyle(.plain)
         .background(setupGradientBackGround())
