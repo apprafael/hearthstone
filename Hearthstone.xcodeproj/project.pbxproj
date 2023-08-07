@@ -47,6 +47,7 @@
 		26FCFF402A7D7314002075EA /* AlertRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCFF3F2A7D7314002075EA /* AlertRepresentable.swift */; };
 		26FCFF482A7D7AAA002075EA /* CardListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCFF472A7D7AAA002075EA /* CardListInteractorTests.swift */; };
 		26FCFF522A7D7C95002075EA /* CardListViewModelMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCFF512A7D7C95002075EA /* CardListViewModelMock.swift */; };
+		26FCFF542A812778002075EA /* CardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FCFF532A812778002075EA /* CardDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +103,7 @@
 		26FCFF452A7D7AAA002075EA /* HearthstoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HearthstoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26FCFF472A7D7AAA002075EA /* CardListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListInteractorTests.swift; sourceTree = "<group>"; };
 		26FCFF512A7D7C95002075EA /* CardListViewModelMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModelMock.swift; sourceTree = "<group>"; };
+		26FCFF532A812778002075EA /* CardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				260C21EE2A7ADC520083A445 /* CardDetailView.swift */,
 				26FCFF062A7C42FA002075EA /* CardDetailViewModel.swift */,
 				26FCFF082A7C4311002075EA /* CardDetailInteractor.swift */,
+				26FCFF532A812778002075EA /* CardDetail.swift */,
 			);
 			path = CardDetail;
 			sourceTree = "<group>";
@@ -424,6 +427,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FCFF542A812778002075EA /* CardDetail.swift in Sources */,
 				26FCFF302A7C4EF6002075EA /* HTTPTask.swift in Sources */,
 				265757482A7702A000E6EB95 /* CardListView.swift in Sources */,
 				260C21EF2A7ADC520083A445 /* CardDetailView.swift in Sources */,
